@@ -2,12 +2,11 @@
   "name": "adopt-me",
   "version": "7.0.0",
   "description": "Adopt pets via adopt-me",
-  "main": "src/app.js",
   "scripts": {
     "dev": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "build": "react-scripts build"
+    "build": "parcel build src/app.js"
   },
   "author": "Brian Holt <btholt+citr-v7-project@gmail.com>",
   "license": "Apache-2.0",
